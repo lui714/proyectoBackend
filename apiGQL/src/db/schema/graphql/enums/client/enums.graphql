@@ -1,0 +1,6 @@
+enum ClientEnum{
+  Invitado
+  Registrado
+  Comercial
+  Administrador
+}
