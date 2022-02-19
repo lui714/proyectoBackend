@@ -1,3 +1,0 @@
-type Mutation {
-  addClient(client: ClientInput!): Result!
-}

@@ -1,6 +1,0 @@
-type Result {
-  status: Boolean!
-  message: String!
-  #  data: Zapato
-  data: dataDB
-}

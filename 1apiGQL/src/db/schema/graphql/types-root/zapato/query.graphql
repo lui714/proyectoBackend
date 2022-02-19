@@ -1,5 +1,0 @@
-type Query {
-  hello: String!
-  zapatoList: [Zapato!]!
-  zapatoId(id: ID!): Result!
-}
