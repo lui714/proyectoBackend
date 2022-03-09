@@ -1,0 +1,4 @@
+input marcasInput {
+  id: ID
+  marca: String
+}

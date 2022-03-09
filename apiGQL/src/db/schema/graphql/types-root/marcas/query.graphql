@@ -1,0 +1,4 @@
+type Query {
+  marcasList: [marcas!]!
+  marca(marca: String): [marcas!]!
+}

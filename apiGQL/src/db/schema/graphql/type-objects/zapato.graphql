@@ -1,6 +1,6 @@
 type Zapato {
   id: ID!
-  marca: String!
+  marca: String
   modelo: String!
   publishedDate: String
   thumbnailUrl: String
@@ -8,4 +8,5 @@ type Zapato {
   longDescription: String
   status: StatusEnum
   tallas: [String!]!
+  byclientbuy: [Client]
 }

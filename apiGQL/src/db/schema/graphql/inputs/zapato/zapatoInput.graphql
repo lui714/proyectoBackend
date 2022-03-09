@@ -1,11 +1,11 @@
 input ZapatoInput {
   id: ID
-  marca: String!
-  modelo: String!
+  marca: String
+  modelo: String
   publishedDate: String
   thumbnailUrl: String
   precio: String
   longDescription: String
   status: StatusEnum = UNPUBLISH
-  tallas: [String!]!
+  tallas: [String!]
 }

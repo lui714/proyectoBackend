@@ -8,5 +8,6 @@ export interface IClient {
     website?: string;
     github?: string;
     twitter?: string;
+    shoes: Array<string>;
     Zapatos: Array<IZapato>;
   }
