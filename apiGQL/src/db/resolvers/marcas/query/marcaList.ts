@@ -1,5 +1,5 @@
 import { IResolvers } from "@graphql-tools/utils";
-import { Imarcas } from '../../../interfaces/Imarcas';
+import { Imarcas } from '../../../interfaces/IMarcas';
 import { Db } from 'mongodb';
 
 const queryZapatoResolvers: IResolvers = {
