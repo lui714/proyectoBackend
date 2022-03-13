@@ -1,0 +1,13 @@
+type Zapato {
+  id: ID!
+  marca: String
+  modelo: String!
+  publishedDate: String
+  thumbnailUrl: String
+  precio: String
+  longDescription: String
+  status: StatusEnum
+  tallas: [String!]!
+  idm: String
+  byclientbuy: [Client]
+}

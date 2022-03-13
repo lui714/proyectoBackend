@@ -1,0 +1,5 @@
+
+type Query {
+    clientList: [Client]!
+    clientId(id: ID!): Result!
+}

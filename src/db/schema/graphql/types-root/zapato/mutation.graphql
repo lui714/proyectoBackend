@@ -1,0 +1,5 @@
+type Mutation {
+  addZapato(Zapato: ZapatoInput!): Result!
+  deleteZapato(id: ID!): Result!
+  updateZapato(id: ID!, Zapato: ZapatoInput!): Result!
+}

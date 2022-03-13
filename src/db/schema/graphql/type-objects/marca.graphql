@@ -1,0 +1,5 @@
+type marca {
+  idm: ID!
+  marca: String!
+  zapatoPorMarca: [Zapato]
+}
