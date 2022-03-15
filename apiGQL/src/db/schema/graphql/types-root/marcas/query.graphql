@@ -1,4 +1,5 @@
 type Query {
   marcasList: [marcas!]!
+  marcaId(idm: ID!): [Zapato]!
   marca(marca: String): [marcas!]!
 }

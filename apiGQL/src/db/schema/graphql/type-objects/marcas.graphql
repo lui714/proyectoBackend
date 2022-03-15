@@ -1,4 +1,4 @@
 type marcas {
-    id: ID!
-    marca: String!
+  idm: ID!
+  marca: String!
 }

@@ -1,5 +1,5 @@
 export interface Imarcas {
     _id?: any;
-    id: string;
+    idm: string;
     marca: string;
 }

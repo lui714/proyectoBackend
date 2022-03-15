@@ -13,4 +13,3 @@ const queryMarcaResolvers: IResolvers = {
 
 export default queryMarcaResolvers;
 
-

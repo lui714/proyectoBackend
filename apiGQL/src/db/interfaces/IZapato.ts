@@ -14,4 +14,5 @@ export interface IZapato {
     longDescription?: string;
     status: enumStatus;
     tallas: Array<string>;
+    idm: string;
 }
